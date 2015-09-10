@@ -24,4 +24,20 @@ you want to play a bit more
 
 And again, always focus on quality and make the code as production ready as possible.
 
+-------
+
+#Solution:
+
+Please start by executing the folowing commands to build the project, under each folder (principal_tasks and additional_tasks)
+
+	npm install
+	
+	grunt
+
+NPM was sued as a package manager and for automated workflow and stack I used GruntJS 
+	
+The source Code exists under ``src/server.coffee`` for the first part of the project
+	
+
+
 
