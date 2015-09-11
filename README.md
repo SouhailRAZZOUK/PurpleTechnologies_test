@@ -28,7 +28,7 @@ And again, always focus on quality and make the code as production ready as poss
 
 #Solution:
 
-Please start by executing the folowing commands to build the project, under each folder (principal_tasks and additional_tasks)
+Please start by executing the following commands to build the project, under each folder (principal_tasks and additional_tasks)
 
 	npm install
 	
