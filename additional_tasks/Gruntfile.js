@@ -9,7 +9,8 @@ module.exports = function(grunt) {
           'server.js': ['src/modules/*.coffee', 'src/server.coffee'] // compile and concat into single file
         },
         options:{
-          args: "-j"
+          // bare: true,
+          join: true
         }
       }
     },
