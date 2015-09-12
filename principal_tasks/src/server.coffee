@@ -33,8 +33,8 @@ exchangeRatesRouteOptions =
 		response:
 			schema: Joi.object().keys
 									status: Joi.any().valid ['success','fail']
-									data: Joi.object()
-									message: Joi.string()
+									data: Joi.object()    # needs more refinement (schema of an object that contain an array of objects ...)
+									message: Joi.string().max(100)
 				
 server.route exchangeRatesRouteOptions
 
